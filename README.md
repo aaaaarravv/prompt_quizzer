@@ -25,4 +25,5 @@ The project demonstrates the use of arrays, loops, conditionals, functions, and 
 - View feedback after each answer and see your final score at the end
 
 ├── quiz.js      # Main JavaScript file containing quiz logic
+
 ├── README.md    # Project documentation
