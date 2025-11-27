@@ -1,43 +1,28 @@
 # prompt_quizzer
 
-# JavaScript Quiz Game
+## JavaScript Quiz Game
+📌 Overview
+This repository contains a simple JavaScript quiz game that runs entirely in the browser console. The game presents a series of predefined questions, collects user input via prompt(), provides immediate feedback using alert(), and tracks the user’s score throughout the session.
+The project demonstrates the use of arrays, loops, conditionals, functions, and string methods in JavaScript without requiring any HTML or DOM manipulation.
 
-## 🎯 Objective
-A simple quiz game that runs entirely in the *browser console* using prompt() for input and alert() for feedback. It demonstrates arrays, loops, conditionals, functions, and string methods.
+🎯 Features
+- Predefined set of quiz questions stored in an array of objects.
+- Input handling with .toLowerCase() and .trim() for accurate comparison.
+- Score tracking with immediate feedback after each question.
+- Final score display at the end of the quiz.
+- Runs directly in the browser console — no external dependencies.
 
----
+🛠️ Technologies Used
+- JavaScript (ES6)
+- Browser Console (tested on Chrome, Edge, Firefox)
 
-## 🚀 How to Run
-1. Open any modern browser (Chrome, Edge, Firefox).
-2. Press *F12* to open Developer Tools → Console.
-3. Paste the contents of quiz.js into the console.
-4. Press *Enter* to start the quiz.
-5. Answer each question via the prompt() pop-up.
-6. Immediate feedback is shown with alert().
-7. At the end, your final score is displayed.
+🚀 How to Run
+- Open your browser.
+- Press F12 or right‑click → Inspect → go to the Console tab.
+- Copy and paste the contents of quiz.js into the console.
+- Press Enter to start the quiz.
+- Answer each question in the prompt window.
+- View feedback after each answer and see your final score at the end
 
----
-
-## 🛠 Features
-- Predefined array of 5 questions (easy to extend).
-- Input normalization using .toLowerCase() and .trim().
-- Score tracking with final result display.
-- Organized into a reusable runQuiz() function.
-
----
-
-## 📈 Improvements (Optional)
-- Add multiple-choice options.
-- Implement a timer for each question.
-- Store high scores using localStorage.
-- Provide hints for incorrect answers.
-- Add restart option.
-
----
-
-## ✅ Performance Metrics
-- Quiz logic using loops and conditionals ✔
-- Input handling and answer comparison ✔
-- Score tracking and display ✔
-- Knowledge of browser console ✔
-- Code readability and structure ✔
+├── quiz.js      # Main JavaScript file containing quiz logic
+├── README.md    # Project documentation
